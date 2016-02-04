@@ -1,0 +1,102 @@
+body,html{
+	font-family:Hind, sans-serif;
+	background-color:rgb(246, 248, 248);
+}
+section{
+	display:block;
+}
+h1,h2,h3{
+	font-family:Raleway;
+}
+h1{
+	text-transform:uppercase;
+	font-size:3.5em;
+	font-weight:bold;
+	border-bottom:1px solid #1C58AD;
+	display:inline-block;
+}
+header p{
+	font-size:1.5em;
+	font-weight:300;
+	text-transform:uppercase;
+}
+.landing{
+	color:#1C58AD;
+	padding:25px 0;
+	text-align:center;
+}
+.overview{
+	padding:0;
+}
+.overview h2{
+	color:#1C58AD;
+	font-size:2.5em;
+	font-weight:bold;
+	text-align:left;
+	text-transform:uppercase;
+}
+.imaged{
+    background:no-repeat top center fixed;
+    background-size:cover;
+	position:relative;
+	padding:100px 20px;
+}
+.imaged.what{
+	color:white;
+	background-image:url(../img/workbg.jpg);
+}
+.imaged.who{
+	color:white;
+	background-image:url(../img/teambg.jpg);
+}
+.overlay{
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	background-color:rgba(0,0,153,.3);
+	z-index:0;
+}
+.profile-pic{
+	height:200px;
+	width:200px;
+	overflow:hidden;
+	text-align:center;
+}
+.profile-pic.left{
+	text-align:left;
+}
+.profile-pic.right{
+	text-align:right;
+}
+.profile-pic img{
+	height:100%;
+}
+.no-padding{
+	padding:0;
+}
+
+@media screen and (min-width: 30em) {
+	.landing{
+		padding:150px 0;
+	}
+	h1{
+		font-size:5em;
+	}
+	header p{
+		letter-spacing:4px;
+	}
+}
+
+@media screen and (min-width: 63.236em) {
+	.landing{
+		padding:250px 0;
+	}
+	h1{
+		font-size:6em;
+	}
+	header p{
+		letter-spacing:6px;
+	}
+}
